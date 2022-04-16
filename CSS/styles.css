@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Nunito&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+
+.navigation {
+  height: 65px;
+  width: 100%;
+  background-color: black;
+  padding: 1rem;
+}
+
+.navigation .nav-pills {
+  text-align: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list-item-inline {
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  display: inline;
+}
+.navigation .link {
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32.74px;
+}
+
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero p {
+  position: absolute;
+  margin-left: 100px;
+}
+
+.hero .hero-text1 {
+  margin-top: 100px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 73.66px;
+}
+
+.hero .hero-text2 {
+  margin-top: 158px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 49.1px;
+}
+
+.hero .hero-img {
+  display: block;
+  width: 1440px;
+  height: 600px;
+}
+footer {
+  background-color: black;
+  height: 65px;
+  width: 100%;
+}
+section {
+  height: 17rem;
+}
